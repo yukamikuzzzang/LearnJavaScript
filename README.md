@@ -11,6 +11,6 @@ development tools.
 es6 -- 노드 소스 --  
 dist   
   
-public/  -- 브라우저 소스 --
+public/  -- 브라우저 소스 --  
 es6/  
 dist/  
