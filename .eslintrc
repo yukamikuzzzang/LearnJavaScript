@@ -1,0 +1,26 @@
+{
+  "env": {
+    //"browser": true
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6, //ECMAversion
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "comma-dangle": [2,"always-multiline"],
+    //"규칙": ["에러수준(숫자가능)","상태"]
+    //0은 적용안함, 1은 실수, 2는 에러
+    //off, warn, error
+    "no-console": "off"
+    //브라우저에 console.log가 있으면 에러 표시
+    //실무에서는 console.log가 있으면 엉성한 코드로 취급함. (하지만 이건 연습이니까..)
+    //더 많은 설정은 http://eslint.org
+  }
+}
